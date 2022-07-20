@@ -1,9 +1,14 @@
 import './App.css';
+import Main from './components/Main';
+import './css/all.min.css';
+
+import './css/style.css';
 
 function App() {
   return (
     <div className="App">
-     Server Anywhere
+    
+    <Main/>
     </div>
   );
 }
