@@ -1,4 +1,3 @@
-/* common css start */
 * {
 	margin: 0;
 	padding: 0;
@@ -32,28 +31,38 @@ ol {
 .body {
 	font-family: "Source Sans Pro", sans-serif;
 }
-
 .section_head h2 {
+	font-size: 38px;
+	line-height: 42px;
+	font-weight: 600;
+	color: #32363b;
+	padding-top: 90px;
+}
+.section_head h3 {
 	font-size: 23px;
 	font-weight: 400;
 	color: #5e6065;
 	line-height: 30px;
+	padding: 25px 0;
 }
 .btn {
-	height: 60px;
-	width: 275px;
+	/* height: 60px; */
+	/* width: 275px; */
 	background-color: #02b159;
 	color: #fff;
 	display: inline-block;
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 600;
-	padding: 12px;
+	line-height: 32px;
+	padding: 12px 43px;
 	margin-top: 20px;
 }
 .btn a {
-	font-size: 18px;
 	padding-left: 4px;
 	color: #fff;
+}
+.btn i {
+	font-size: 23px;
 }
 .btn:hover {
 	text-decoration: none;
@@ -67,7 +76,6 @@ ol {
 	color: #32363b;
 	font-size: 16px;
 	font-weight: 600;
-	/* text-transform: uppercase; */
 }
 .menu_part ul li a {
 	padding-left: 0 !important;
@@ -87,27 +95,18 @@ ol {
 	font-size: 60px;
 	font-weight: 600;
 	line-height: 68px;
-	padding-bottom: 25px;
 	color: #32363b;
 }
-.banner_text h3 {
+.banner_text h4 {
 	color: #00b259;
 	font-size: 22px;
 	font-weight: 600;
 	line-height: 32px;
-	padding: 30px 0;
-}
-.banner_link h5 {
-	font-weight: 600;
-	font-size: 14px;
-	line-height: 20px;
-	background-color: #02b159;
-	color: #fff;
-	padding: 18px 45px;
+	padding-bottom: 30px;
 }
 .banner_button {
 	width: 287px;
-	padding: 50px 0 10px;
+	padding-bottom: 10px;
 }
 .banner_button h2 {
 	font-weight: 600;
@@ -117,6 +116,15 @@ ol {
 }
 .github {
 	background-color: #d9dbe1;
+	padding-left: 98px;
+	padding-right: 97px;
+}
+.email {
+	padding-left: 104px;
+	padding-right: 104px;
+}
+.github:hover {
+	background-color: #ededf4;
 }
 .github i,
 .github a {
@@ -126,9 +134,6 @@ ol {
 .github:hover i {
 	text-decoration: none;
 	color: #5e6065;
-}
-.github:hover {
-	background-color: #ededf4;
 }
 .terms p {
 	color: #5e6065;
@@ -142,4 +147,75 @@ ol {
 .money_back {
 	padding: 30px 0;
 }
+/*Banner css end */
+
+/*About css start */
+.migration {
+	margin-right: 10px;
+}
+.fixed_text {
+	font-size: 13px;
+	font-weight: 400;
+	color: #838489;
+}
+.two_btn {
+	margin: 55px 0 100px;
+}
+.progress {
+	height: 2rem;
+	overflow: hidden;
+	font-size: 0.75rem;
+	background-color: #ffffff;
+	border-radius: 0.25rem;
+}
+.progress-bar {
+	width: 0;
+	color: #000000;
+	text-align: right;
+	background-color: #2cb35a;
+	transition: width 0.8s ease;
+	animation: progress 3.5s ease-in-out forwards;
+}
+.title {
+	opacity: 0;
+	animation: show 0.35s forwards ease-in-out 0.5s;
+}
+@keyframes progress {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+@keyframes show {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/*About css end */
+
+/*Quote css start */
+#quote {
+	background-color: #32363b;
+}
+.quote_text h1 {
+	font-size: 44px;
+	font-weight: 400;
+	line-height: 50px;
+	color: #fff;
+	padding: 120px 0 45px;
+}
+.quote_text p {
+	color: #fff;
+	font-size: 18px;
+	padding-bottom: 80px;
+}
+/*Quote css end */
+/*Banner css end */
+
 /*Banner css end */
