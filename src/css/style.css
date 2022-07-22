@@ -46,8 +46,6 @@ ol {
 	padding: 25px 0;
 }
 .btn {
-	/* height: 60px; */
-	/* width: 275px; */
 	background-color: #02b159;
 	color: #fff;
 	display: inline-block;
@@ -196,7 +194,6 @@ ol {
 		opacity: 1;
 	}
 }
-
 /*About css end */
 
 /*Quote css start */
@@ -216,6 +213,63 @@ ol {
 	padding-bottom: 80px;
 }
 /*Quote css end */
-/*Banner css end */
 
-/*Banner css end */
+/*Service css start */
+#service,
+#package {
+	background-color: #fafafc;
+}
+/*Service css end */
+
+/*Package css start */
+#package {
+	padding-bottom: 80px;
+}
+#package p {
+	padding: 27px 0;
+	font-size: 16px;
+	font-weight: 400;
+}
+.icon {
+	padding-left: 0 !important;
+	padding: 20px 0;
+}
+.icon img {
+	height: 38px;
+}
+/*Package css end */
+
+/*Market css start */
+.Oswald {
+	font-family: Oswald;
+	font-size: 18px;
+	font-weight: 400;
+}
+.map {
+	margin: 75px 0;
+}
+/*Market css end */
+
+/*Account css start */
+#account {
+	background-color: #32363b;
+	padding: 50px;
+}
+.account_img img {
+	border-radius: 8px 0 0 8px;
+}
+.account_text {
+	background-color: #ffffff;
+	border-radius: 0 8px 8px 0;
+}
+.account_text h2 {
+	padding-top: 60px;
+}
+.account_text .btn {
+	margin: 40px 0 20px;
+}
+.account_text p {
+	font-size: 14px;
+	color: #8080a1;
+}
+/*Account css end */
