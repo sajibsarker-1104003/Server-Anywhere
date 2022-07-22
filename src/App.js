@@ -1,14 +1,10 @@
-import './App.css';
-import Main from './components/Main';
-import './css/all.min.css';
-
-import './css/style.css';
+import "./App.css";
+import Main from "./components/Main";
 
 function App() {
   return (
     <div className="App">
-    
-    <Main/>
+      <Main />
     </div>
   );
 }
