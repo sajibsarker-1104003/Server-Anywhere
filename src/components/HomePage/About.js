@@ -25,15 +25,24 @@ const About = () => {
                   />
                 </div>
                 <div className="col-lg-11">
-                  <div style={{ margin: "auto" }}>
-                    <div className="progress">
+                  <div style={{ margin: "auto"}}>
+                    <div
+                      className="progress"
+                      style={{
+                        height: "2rem",
+                        overflow: "hidden",
+                        fontSize: "0.75rem",
+                        backgroundColor: "#ffffff",
+                        borderRadius: "0.25rem",
+                      }}
+                    >
                       <div
                         className="progress-bar"
                         role="progressbar"
                         aria-valuenow="60"
                         aria-valuemin="0"
                         aria-valuemax="100"
-                        style={{ maxWidth: "30%" }}
+                        style={{ maxWidth: "30%",backgroundColor:'rgb(2, 177, 89)'}}
                       >
                         <span className="title">$30 / mo</span>
                       </div>
@@ -51,7 +60,16 @@ const About = () => {
                 </div>
                 <div className="col-lg-11">
                   <div style={{ margin: "auto" }}>
-                    <div className="progress">
+                    <div
+                      className="progress"
+                      style={{
+                        height: "2rem",
+                        overflow: "hidden",
+                        fontSize: "0.75rem",
+                        backgroundColor: "#ffffff",
+                        borderRadius: "0.25rem",
+                      }}
+                    >
                       <div
                         className="progress-bar"
                         role="progressbar"
@@ -79,7 +97,16 @@ const About = () => {
                 </div>
                 <div className="col-lg-11">
                   <div style={{ margin: "auto" }}>
-                    <div className="progress">
+                    <div
+                      className="progress"
+                      style={{
+                        height: "2rem",
+                        overflow: "hidden",
+                        fontSize: "0.75rem",
+                        backgroundColor: "#ffffff",
+                        borderRadius: "0.25rem",
+                      }}
+                    >
                       <div
                         className="progress-bar"
                         role="progressbar"
@@ -107,7 +134,16 @@ const About = () => {
                 </div>
                 <div className="col-lg-11">
                   <div style={{ margin: "auto" }}>
-                    <div className="progress">
+                    <div
+                      className="progress"
+                      style={{
+                        height: "2rem",
+                        overflow: "hidden",
+                        fontSize: "0.75rem",
+                        backgroundColor: "#ffffff",
+                        borderRadius: "0.25rem",
+                      }}
+                    >
                       <div
                         className="progress-bar"
                         role="progressbar"

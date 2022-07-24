@@ -24,13 +24,7 @@ const Banner = () => {
               }}
             >
               <h1
-                style={{
-                  textAlign: "left",
-                  fontSize: "64px",
-                  letterSpacing: "-2px",
-                  lineHeight: "1.0625",
-                  margin: "0px",
-                }}
+                
               >
                 Cut Your Cloud
                 <strong style={{ fontWeight: "bolder" }}>
@@ -162,8 +156,7 @@ const Banner = () => {
           </div>
         </div>
       </section>
-      <section id="FAQ"></section>
-      <footer className="footer"></footer>
+      
     </div>
   );
 };
