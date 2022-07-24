@@ -172,11 +172,13 @@ const About = () => {
                 </div>
               </div>
 
-              <div className="text-center two_btn">
-                <div className="btn migration px-4">
-                  <a href="#">Learn about Free Migration to Linode</a>
+              <div className="text-center two_btn" style={{
+	margin: '55px 0 100px',
+}}>
+                <div className="btn migration px-4" style={{backgroundColor:'rgb(2, 177, 89)',marginRight: '10px'}}>
+                  <a href="#" >Learn about Free Migration to Linode</a>
                 </div>
-                <div className="btn">
+                <div className="btn" style={{backgroundColor:'rgb(2, 177, 89)'}}>
                   <a href="#">Learn about Linode Credits for Startups</a>
                 </div>
               </div>

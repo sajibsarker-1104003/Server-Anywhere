@@ -23,9 +23,7 @@ const Banner = () => {
                 margin: "0px",
               }}
             >
-              <h1
-                
-              >
+              <h1>
                 Cut Your Cloud
                 <strong style={{ fontWeight: "bolder" }}>
                   {" "}
@@ -56,7 +54,14 @@ const Banner = () => {
                 </span>
               </h3>
             </div>
-            <div className="banner_img" style={{display:'flex',flexWrap:'wrap',justifyContent:'flex-start',}}>
+            <div
+              className="banner_img"
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                justifyContent: "flex-start",
+              }}
+            >
               <img
                 src="images/Year2022-v2.svg"
                 width="135px"
@@ -124,13 +129,30 @@ const Banner = () => {
                   </div>
                 </div>
 
-                <div className="btn github mt-0">
+                <div
+                  className="btn github mt-0"
+                  style={{
+                    backgroundColor: "#f2f2f7",
+                    height: "60px",
+                    width: "275px",
+                    display: "inline-block",
+                    fontSize: "22px",
+                    fontWeight: "600",
+                    padding: "12px",
+                    marginTop: "20px",
+                  }}
+                >
                   <i className="fa-brands fa-github"></i>
-                  <a href="#">GitHub</a>
+                  <a href="#" style={{ color: "#a9aab0", }}>GitHub</a>
                 </div>
-                <div className="btn github">
+                <div
+                  className="btn github"
+                  style={{ backgroundColor: "#f2f2f7" }}
+                >
                   <i className="fa-solid fa-envelope"></i>
-                  <a href="#">Email</a>
+                  <a href="#" style={{ color: "#a9aab0", }}>
+                    Email
+                  </a>
                 </div>
                 <div className="terms">
                   <p>
@@ -156,7 +178,6 @@ const Banner = () => {
           </div>
         </div>
       </section>
-      
     </div>
   );
 };

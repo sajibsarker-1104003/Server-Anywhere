@@ -12,7 +12,19 @@ const Account = () => {
             <div className="section_head">
               <h2>Ready to get started?</h2>
             </div>
-            <div className="btn">
+            <div
+              className="btn"
+              style={{
+                backgroundColor: "rgb(2, 177, 89)",
+                height: "60px",
+                width: "275px",
+                display: "inline-block",
+                fontSize: "22px",
+                fontWeight: "600",
+                padding: "12px",
+                marginTop: "20px",
+              }}
+            >
               <a href="#">Create Free Account</a>
             </div>
             <p>$100 credit will be applied to your new account</p>
