@@ -1,0 +1,187 @@
+/* for medium to large device */
+@media (max-width: 991px) {
+	#banner {
+		padding: 50px 35px;
+	}
+	.banner_style {
+		padding: 40px 38px 35px;
+		border-radius: 10px 10px 0 0;
+	}
+	.link_style {
+		border-radius: 0 0 10px 10px;
+	}
+	.banner_text h1 {
+		font-size: 48px;
+		line-height: 48px;
+		word-spacing: -6px;
+		width: 320px;
+	}
+	.banner_button {
+		width: 100%;
+	}
+	.github {
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+	.email {
+		padding-left: 22%;
+		padding-right: 22%;
+	}
+	.link_style {
+		padding: 55px 55px 55px;
+	}
+	#banner .btn {
+		width: 100%;
+	}
+	.banner_button {
+		padding-bottom: 0;
+	}
+	.money_back {
+		padding: 40px 0 0;
+	} /*end of banner*/
+
+	.quote_text h1 {
+		font-size: 40px;
+		line-height: 44px;
+	}
+	/* end of quote */
+
+	#market {
+		padding-bottom: 80px;
+	}
+	/* end of market */
+
+	.account_img img {
+		border-radius: 8px 8px 0 0;
+	}
+	.account_text {
+		border-radius: 0 0 8px 8px;
+	}
+	.account_text p {
+		padding-bottom: 30px;
+	}
+	#account {
+		padding: 18px 28px;
+	}
+	/* end of account */
+
+	.footer_text {
+		text-align: center !important;
+	}
+	/* end of footer */
+}
+
+/* for small to medium device */
+@media (max-width: 767px) {
+	.section_head h3 {
+		font-size: 18px;
+		line-height: 28px;
+		padding: 20px 0;
+		text-align: center;
+	}
+	.section_head h2 {
+		padding-top: 48px;
+		word-spacing: -3px;
+		text-align: center;
+	}
+	#banner {
+		padding: 18px 28px;
+	}
+	.banner_text h1 {
+		font-size: 36px;
+		line-height: 40px;
+		word-spacing: -6px;
+		width: 240px;
+		margin: auto;
+	}
+	.banner_text {
+		text-align: center;
+		justify-content: center;
+	}
+	.banner_text h4 {
+		font-size: 19px;
+		line-height: 28px;
+	}
+	.banner_img {
+		text-align: center;
+	} /* end of banner */
+
+	.linode {
+		padding-top: 0 !important;
+	}
+	.two_btn {
+		width: 90%;
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 65px;
+	}
+	.quote_text h1 {
+		font-size: 31px;
+		line-height: 36px;
+		padding: 80px 0 40px;
+		word-spacing: -2px;
+	}
+	.quote_text p {
+		font-size: 18px;
+		padding-bottom: 50px;
+	} /* end of quote */
+
+	.review_text {
+		text-align: center;
+	}
+	.batch img {
+		display: none;
+	}
+	.reviewer img {
+		padding: 0 0 50px !important;
+	}
+	/* end of review */
+
+	.top_border {
+		border-top: 1px #e6e4e4 solid;
+	}
+
+	/* end of package */
+
+	.map img {
+		display: none;
+	}
+	/* end of market */
+	#account img {
+		display: none;
+	}
+	.account_text {
+		border-radius: 8px;
+	}
+	.account_text p {
+		padding-bottom: 20px;
+	}
+	.holder {
+		padding-top: 50px;
+		background-color: #d0d0d0;
+		border-radius: 10px 10px 0 0;
+	}
+	#account .btn {
+		width: auto;
+	}
+	/* end of account */
+
+	#FAQ .container {
+		max-width: inherit;
+	}
+	.mb_bottom {
+		margin-bottom: 15px;
+	}
+	/* end of FAQ */
+}
+
+/* for extra small device */
+@media (max-width: 300px) {
+	.banner_text h1 {
+		width: 100%;
+	}
+	.banner_img img {
+		width: 100px;
+		height: 100px;
+	}
+}
