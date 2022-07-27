@@ -2,11 +2,11 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div>
-      <section id="banner">
+    <div >
+      <section id="banner" style={{padding: '50px 35px'}}>
         <div className="row">
           <div
-            className="col-lg-6"
+            className="col-lg-6 banner_style"
             style={{
               backgroundColor: "#f2f2f7",
               borderRadius: "10px 0 0 10px",
@@ -92,7 +92,7 @@ const Banner = () => {
               <div className="banner_button mx-auto">
                 <h2>See if Linode works for you with $100 in credit</h2>
                 <div
-                  className="btn1"
+                  className="btn"
                   style={{
                     backgroundColor: "#02b159",
                     color: "#fff",
