@@ -1,3 +1,4 @@
+/* common css start */
 * {
 	margin: 0;
 	padding: 0;
@@ -85,16 +86,29 @@ ol {
 /*Menu css end */
 
 /*Banner css start */
+/* #banner .container {
+	width: 1300px !important;
+} */
+#banner .container,
+.footer .container,
+#account .container {
+	max-width: 1280px;
+}
 #banner {
 	background-color: #32363b;
 	padding: 50px 45px;
+	/* width: 1280px; */
+}
+.banner_style {
+	background-color: #f2f2f7;
+	border-radius: 10px 0 0 10px;
+	padding: 120px 75px 0;
 }
 .banner_text h1 {
 	font-size: 60px;
 	font-weight: 600;
 	line-height: 68px;
 	color: #32363b;
-
 }
 .banner_text h4 {
 	color: #00b259;
@@ -112,6 +126,11 @@ ol {
 	font-size: 32px;
 	line-height: 36px;
 	color: #32363b;
+}
+.link_style {
+	background-color: #ffffff;
+	border-radius: 0 10px 10px 0;
+	padding: 120px 75px 0;
 }
 .github {
 	background-color: #d9dbe1;
@@ -146,11 +165,14 @@ ol {
 .money_back {
 	padding: 30px 0;
 }
+.money_back span {
+	color: #808080;
+}
 /*Banner css end */
 
-/*About css start */
-.migration {
-	margin-right: 10px;
+/* About css start */
+#about .btn {
+	padding: 12px 0;
 }
 .fixed_text {
 	font-size: 13px;
@@ -174,6 +196,7 @@ ol {
 	background-color: #2cb35a;
 	transition: width 0.8s ease;
 	animation: progress 3.5s ease-in-out forwards;
+	border-radius: 5px;
 }
 .title {
 	opacity: 0;
@@ -241,7 +264,7 @@ ol {
 /*Package css end */
 
 /*Market css start */
-.Oswald {
+.Oswald p {
 	font-family: Oswald;
 	font-size: 18px;
 	font-weight: 400;
@@ -258,6 +281,8 @@ ol {
 }
 .account_img img {
 	border-radius: 8px 0 0 8px;
+	width: 100%;
+	height: 100%;
 }
 .account_text {
 	background-color: #ffffff;
@@ -274,3 +299,60 @@ ol {
 	color: #8080a1;
 }
 /*Account css end */
+
+/*FAQ css start */
+#FAQ {
+	background-color: #32363b;
+	color: #fff;
+	padding-bottom: 100px;
+}
+#FAQ h2 {
+	color: #fff;
+}
+.faq_head h2 {
+	padding-top: 50px;
+	padding-bottom: 15px;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 36px;
+}
+.faq_text {
+	background-color: #3b3f44;
+	padding: 35px;
+	border-radius: 8px;
+	height: 100%;
+}
+.faq_text h3 {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 28px;
+	padding-bottom: 20px;
+}
+.faq_text h4 {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.faq_text a {
+	color: #fff;
+}
+/*FAQ css end */
+
+/*Footer css start */
+.policy a {
+	padding-left: 20px;
+	color: #02b159;
+}
+.footer footer {
+	color: #fff;
+}
+.footer_text {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.footer {
+	background-color: #0c0c0c;
+	padding: 15px 0;
+}
+/*Footer css end */

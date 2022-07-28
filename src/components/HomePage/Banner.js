@@ -1,9 +1,10 @@
 import React from "react";
-
+import '../../../src/css/responsive.css';
 const Banner = () => {
   return (
-    <div >
+
       <section id="banner" style={{padding: '50px 35px'}}>
+      <div className="container px-0">
         <div className="row">
           <div
             className="col-lg-6 banner_style"
@@ -177,9 +178,11 @@ const Banner = () => {
             </div>
           </div>
         </div>
+        </div>
       </section>
-    </div>
+   
   );
 };
+  
 
 export default Banner;
